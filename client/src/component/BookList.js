@@ -11,7 +11,6 @@ const getBooksQuery = gql`
         }
     }
 `
-
 class BookList extends Component {
 
     displayBooks() {
@@ -26,7 +25,7 @@ class BookList extends Component {
             })
         }
     }
-    
+
     render() {
         return (
             <div className="App">
