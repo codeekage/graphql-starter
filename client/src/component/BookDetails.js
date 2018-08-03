@@ -30,7 +30,7 @@ class BooksDetails extends Component {
 
     render() {  
         return (
-            <div className="App">
+            <div className="App" id="book-details">
                 <h5>Book Details</h5>
                 <div>
                    <p>Output Details</p>
